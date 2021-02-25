@@ -1,0 +1,14 @@
+<svg width="756" height="755" viewBox="0 0 756 755" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="377.995" y1="170.101" x2="359.012" y2="357.103" stroke="black" stroke-width="2"/>
+<line y1="-1" x2="187.963" y2="-1" transform="matrix(0.100995 0.994887 0.994887 -0.100995 379 170)" stroke="black" stroke-width="2"/>
+<line x1="583.901" y1="376.978" x2="396.899" y2="357.995" stroke="black" stroke-width="2"/>
+<line y1="-1" x2="187.963" y2="-1" transform="matrix(-0.994887 0.100995 0.100995 0.994887 584.002 377.983)" stroke="black" stroke-width="2"/>
+<line y1="-1" x2="187.963" y2="-1" transform="matrix(0.994887 -0.100995 -0.100995 -0.994887 172 375.983)" stroke="black" stroke-width="2"/>
+<line x1="172.101" y1="376.988" x2="359.103" y2="395.972" stroke="black" stroke-width="2"/>
+<line y1="-1" x2="187.963" y2="-1" transform="matrix(-0.100995 -0.994887 -0.994887 0.100995 377 584.002)" stroke="black" stroke-width="2"/>
+<line x1="378.005" y1="583.901" x2="396.988" y2="396.899" stroke="black" stroke-width="2"/>
+<line x1="378" y1="171" x2="378" y2="359" stroke="black" stroke-width="2"/>
+<line x1="378" y1="395" x2="378" y2="583" stroke="black" stroke-width="2"/>
+<line x1="171" y1="377" x2="359" y2="377" stroke="black" stroke-width="2"/>
+<line x1="396" y1="377" x2="584" y2="377" stroke="black" stroke-width="2"/>
+</svg>
