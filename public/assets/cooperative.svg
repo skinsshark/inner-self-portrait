@@ -1,9 +1,9 @@
 <svg width="756" height="755" viewBox="0 0 756 755" fill="none" xmlns="http://www.w3.org/2000/svg">
 <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="171" y="164" width="420" height="425">
-<rect x="-1" y="1" width="185" height="38" transform="matrix(-1 0 0 1 356 356.998)" fill="white" stroke="black" stroke-width="2"/>
-<rect x="-1" y="1" width="191" height="38" transform="matrix(-1 0 0 1 589 356.998)" fill="white" stroke="black" stroke-width="2"/>
-<rect x="1" y="-1" width="38" height="190" transform="matrix(1 0 0 -1 358 354.998)" fill="white" stroke="black" stroke-width="2"/>
-<rect x="1" y="-1" width="38" height="190" transform="matrix(1 0 0 -1 358 586.998)" fill="white" stroke="black" stroke-width="2"/>
+<rect x="-1.5" y="1.5" width="184" height="37" transform="matrix(-1 0 0 1 355 356.998)" fill="white" stroke="black" stroke-width="2"/>
+<rect x="-1.5" y="1.5" width="190" height="37" transform="matrix(-1 0 0 1 588 356.998)" fill="white" stroke="black" stroke-width="2"/>
+<rect x="1.5" y="-1.5" width="37" height="189" transform="matrix(1 0 0 -1 358 353.998)" fill="white" stroke="black" stroke-width="2"/>
+<rect x="1.5" y="-1.5" width="37" height="189" transform="matrix(1 0 0 -1 358 585.998)" fill="white" stroke="black" stroke-width="2"/>
 </mask>
 <g mask="url(#mask0)">
 <path d="M397 377C397 434.14 394.762 485.856 391.147 523.275C389.339 541.99 387.189 557.098 384.81 567.51C383.619 572.725 382.382 576.708 381.126 579.368C380.497 580.7 379.889 581.645 379.32 582.242C378.752 582.84 378.314 583 378 583C377.686 583 377.248 582.84 376.68 582.242C376.111 581.645 375.503 580.7 374.874 579.368C373.618 576.708 372.381 572.725 371.19 567.51C368.811 557.098 366.661 541.99 364.853 523.275C361.238 485.856 359 434.14 359 377C359 319.86 361.238 268.144 364.853 230.725C366.661 212.01 368.811 196.902 371.19 186.49C372.381 181.275 373.618 177.292 374.874 174.632C375.503 173.3 376.111 172.355 376.68 171.758C377.248 171.16 377.686 171 378 171C378.314 171 378.752 171.16 379.32 171.758C379.889 172.355 380.497 173.3 381.126 174.632C382.382 177.292 383.619 181.275 384.81 186.49C387.189 196.902 389.339 212.01 391.147 230.725C394.762 268.144 397 319.86 397 377Z" stroke="black" stroke-width="2"/>
