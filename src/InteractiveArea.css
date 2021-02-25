@@ -17,6 +17,7 @@
 
 .question-area ul li {
   margin-bottom: 25px;
+  display: flex;
 }
 
 .question-area ul li:before {
@@ -26,7 +27,7 @@
   font-weight: 500;
 }
 
-.question-area ul li:after {
+.question-area ul li p:after {
   content: ':';
 }
 
@@ -40,10 +41,11 @@
 
 .drawing .layer {
   position: absolute;
+  background-position: center center;
   /* flex: 1 1 0px; */
 }
 
-.drawing .layer-1 {
+/* .drawing .layer-1 {
   background: url('./assets/value-tradition.svg') center center;
 }
 
@@ -73,7 +75,7 @@
 
 .drawing .layer-8 {
   background: url('./assets/playful-disposition.svg') center center;
-}
+} */
 
 
 .drawing,
