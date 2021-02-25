@@ -1,0 +1,44 @@
+header, body {
+  background-color: #CAE4D3;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 30px;
+  width: 100%;
+}
+
+header .main-headline {
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+header .subtitle {
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    flex-direction: column-reverse;
+  }
+
+  header .main-headline {
+    max-width: none;
+    margin-top: 50px;
+  }
+
+  header .subtitle {
+    width: 50%;
+    align-self: flex-end;
+    text-align: right;
+  }
+}

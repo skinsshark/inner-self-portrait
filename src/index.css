@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Favorit';
+  font-size: 10px;
+}
+
+body, h1, h2, h3, p, li, a {
+  margin: 0;
+  font-weight: 400;
+}
+
+a, a:focus, a:active {
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 3vw;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+a, p, li {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 991px) {
+  a, p, li {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}

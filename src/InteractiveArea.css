@@ -1,0 +1,141 @@
+.interactive-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.question-area {
+  padding: 0 30px;
+}
+
+.question-area ul {
+  counter-reset: list-number;
+  list-style-type: none;
+  padding: 0;
+}
+
+.question-area ul li {
+  margin-bottom: 25px;
+}
+
+.question-area ul li:before {
+  counter-increment: list-number;
+  content: counter(list-number);
+  margin-right: 2rem;
+  font-weight: 500;
+}
+
+.question-area ul li:after {
+  content: ':';
+}
+
+.drawing {
+  background-color: #E6E3FF;
+  padding: 0 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawing .layer {
+  position: absolute;
+  /* flex: 1 1 0px; */
+}
+
+.drawing .layer-1 {
+  background: url('./assets/value-tradition.svg') center center;
+}
+
+.drawing .layer-2 {
+  background: url('./assets/introvert.svg') center center;
+}
+
+.drawing .layer-3 {
+  background: url('./assets/optimist.svg') center center;
+}
+
+.drawing .layer-4 {
+  background: url('./assets/have-a-plan.svg') center center;
+}
+
+.drawing .layer-5 {
+  background: url('./assets/cooperative.svg') center center;
+}
+
+.drawing .layer-6 {
+  background: url('./assets/thick-skinned.svg') center center;
+}
+
+.drawing .layer-7 {
+  background: url('./assets/analytical-thinker.svg') center center;
+}
+
+.drawing .layer-8 {
+  background: url('./assets/playful-disposition.svg') center center;
+}
+
+
+.drawing,
+.drawing img,
+.drawing .layer {
+  width: 80vh;
+}
+
+.drawing img,
+.drawing .layer {
+  height: 80vh;
+  background-size: 80vh;
+}
+
+@media only screen and (max-width: 1200px) {
+  .drawing {
+    padding: 0 28vw;
+  }
+
+  .drawing,
+  .drawing img,
+  .drawing .layer {
+    width: 40vw;
+  }
+
+  .drawing img,
+  .drawing .layer {
+    height: 40vw;
+    background-size: 40vw;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .drawing,
+  .drawing img,
+  .drawing .layer {
+    width: 90vw;
+  }
+
+  .drawing img,
+  .drawing .layer {
+    height: 90vw;
+    background-size: 90vw;
+  }
+
+  .drawing {
+    padding: 50px 0;
+  }
+
+  .interactive-section {
+    flex-direction: column;
+    flex: 0 1 auto;
+  }
+
+  .question-area {
+    padding: 30px 40px;
+  }
+
+  .drawing {
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
