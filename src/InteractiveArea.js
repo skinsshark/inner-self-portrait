@@ -80,7 +80,7 @@ function InteractiveArea() {
         </ul>
       </div>
       <div className="drawing">
-        <img src={grid} alt="grid" />
+        <img className="grid" src={grid} alt="grid" />
         {Array.from(responses).map((response, i) => {
           if (response != null) {
             const layerImage = `./assets/${response}.svg`;

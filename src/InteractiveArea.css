@@ -79,13 +79,14 @@
 
 
 .drawing,
-.drawing img,
+.drawing .grid,
 .drawing .layer {
   width: 80vh;
 }
 
-.drawing img,
+.drawing .grid,
 .drawing .layer {
+  position: absolute;
   height: 80vh;
   background-size: 80vh;
 }
@@ -96,12 +97,12 @@
   }
 
   .drawing,
-  .drawing img,
+  .drawing .grid,
   .drawing .layer {
     width: 40vw;
   }
 
-  .drawing img,
+  .drawing .grid,
   .drawing .layer {
     height: 40vw;
     background-size: 40vw;
@@ -110,12 +111,12 @@
 
 @media only screen and (max-width: 991px) {
   .drawing,
-  .drawing img,
+  .drawing .grid,
   .drawing .layer {
     width: 90vw;
   }
 
-  .drawing img,
+  .drawing .grid,
   .drawing .layer {
     height: 90vw;
     background-size: 90vw;
@@ -123,6 +124,15 @@
 
   .drawing {
     padding: 50px 0;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .drawing,
+  .drawing .grid {
+    position: relative;
   }
 
   .interactive-section {
@@ -133,11 +143,6 @@
   .question-area {
     padding: 30px 40px;
   }
-
-  .drawing {
-    flex: 1;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-  }
 }
+
+@media only screen and (max-width: 767px) {}
