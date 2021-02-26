@@ -137,7 +137,7 @@ const QuestionSelector = (props) => {
           setSelectedValue(e.target.value)
           onChange(e.target.id, e.target.value)
         }}/>
-        <span>{value1}</span>
+        <span>{value1.replace(/-/g, ' ')}</span>
       </label>
       <label>
         <input type="radio" id={i} value={value2} checked={selectedValue === value2}
@@ -145,7 +145,7 @@ const QuestionSelector = (props) => {
           setSelectedValue(e.target.value)
           onChange(e.target.id, e.target.value)
         }}/>
-        <span>{value2}</span>
+        <span>{value2 === 'thick-skinned' ? value2 : value2.replace(/-/g, ' ')}</span>
       </label>
     </>
   );
