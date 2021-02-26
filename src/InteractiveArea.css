@@ -82,6 +82,8 @@
 .drawing .grid,
 .drawing .layer {
   width: 80vh;
+  pointer-events: none;
+  user-select: none;
 }
 
 .drawing .grid,
