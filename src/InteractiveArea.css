@@ -9,6 +9,16 @@
   padding: 0 30px;
 }
 
+@media only screen and (max-width: 991px) {
+  .question-area ul {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .question-area ul {
   counter-reset: list-number;
   list-style-type: none;
@@ -31,9 +41,60 @@
   content: ':';
 }
 
+@media only screen and (max-width: 991px) {
+  .question-area ul li {
+    justify-content: center;
+  }
+
+  .question-area ul li:before {
+    margin-right: -1rem;
+  }
+}
+
+.question-area .question {
+  flex-shrink: 0;
+}
+
+.question-area .question p {
+  margin-bottom: 5px;
+}
+
+.question-area label input {
+  visibility: hidden;
+  display: none;
+}
+
+.question-area .selection {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.question-area label:nth-child(1) {
+  border-left: 1px solid #000;
+}
+
+.question-area label:nth-child(3) {
+  border-right: 1px solid #000;
+}
+
+.question-area label {
+  padding: 7px 15px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.question-area label.selected {
+  background-color: #fff;
+}
+
+.divider {
+  width: 1px;
+  background-color: #000;
+}
+
 .drawing {
   background-color: #E6E3FF;
-  padding: 0 35vw;
+  padding: 0 33vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,7 +138,6 @@
   background: url('./assets/playful-disposition.svg') center center;
 } */
 
-
 .drawing,
 .drawing .grid,
 .drawing .layer {
@@ -93,9 +153,27 @@
   background-size: 80vh;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1450px) {
   .drawing {
     padding: 0 28vw;
+  }
+
+  .drawing,
+  .drawing .grid,
+  .drawing .layer {
+    width: 40vw;
+  }
+
+  .drawing .grid,
+  .drawing .layer {
+    height: 40vw;
+    background-size: 40vw;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .drawing {
+    padding: 0 24vw;
   }
 
   .drawing,

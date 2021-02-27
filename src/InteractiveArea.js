@@ -116,7 +116,8 @@ function InteractiveArea() {
               <div key={`layer-${i}`} className={`layer layer-${i}`}
                 style={{
                   backgroundImage: `url(${layerImage})`
-                }}/>
+                }}
+              />
             );
           }
           return null;
@@ -130,8 +131,8 @@ const QuestionSelector = (props) => {
   const {i, value1, value2, onChange} = props;
   const [selectedValue, setSelectedValue] = useState(null);
   return (
-    <>
-      <label>
+    <div className="selection">
+      <label className={selectedValue === value1 ? 'selected' : 'not-selected'}>
         <input type="radio" id={i} value={value1} checked={selectedValue === value1}
         onChange={(e) => {
           setSelectedValue(e.target.value)
@@ -139,7 +140,8 @@ const QuestionSelector = (props) => {
         }}/>
         <span>{value1.replace(/-/g, ' ')}</span>
       </label>
-      <label>
+      <div className="divider" />
+      <label className={selectedValue === value2 ? 'selected' : 'not-selected'}>
         <input type="radio" id={i} value={value2} checked={selectedValue === value2}
         onChange={(e) => {
           setSelectedValue(e.target.value)
@@ -147,7 +149,7 @@ const QuestionSelector = (props) => {
         }}/>
         <span>{value2 === 'thick-skinned' ? value2 : value2.replace(/-/g, ' ')}</span>
       </label>
-    </>
+    </div>
   );
 }
 
