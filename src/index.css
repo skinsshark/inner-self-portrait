@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
   font-family: 'favorit';
-  font-size: 10px;
+  font-size: 8px;
+}
+
+@media only screen and (min-width: 1513px) {
+  * {
+    font-size: 0.5vw;
+  }
 }
 
 body, h1, h2, h3, p, li, a, span {

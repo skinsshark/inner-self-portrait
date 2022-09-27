@@ -13,7 +13,7 @@ function App() {
         <div className="subtitle">
           <p>
             {'Original workshop by '}
-            <a href="https://www.instagram.com/facebookopenarts" target="_blank" rel="noreferrer">Open Arts</a>
+            <a href="https://www.instagram.com/metaopenarts" target="_blank" rel="noreferrer">Open Arts</a>
             {' & '}
             <a href="https://stefanieposavec.com/" target="_blank" rel="noreferrer">Stefanie Posavec</a>
           </p>

@@ -7,6 +7,9 @@
 
 .question-area {
   padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 991px) {
@@ -26,7 +29,7 @@
 }
 
 .question-area ul li {
-  margin-bottom: 25px;
+  margin-bottom: 2rem;
   display: flex;
 }
 
@@ -79,7 +82,7 @@
 
 .question-area label {
   cursor: pointer;
-  padding: 7px 15px;
+  padding: 0.5rem 1.5rem;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
@@ -173,9 +176,9 @@
 }
 
 @media only screen and (max-width: 1240px) {
-  .drawing {
+  /* .drawing {
     padding: 0 24vw;
-  }
+  } */
 
   .drawing,
   .drawing .grid,
